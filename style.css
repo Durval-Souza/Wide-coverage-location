@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+nav {
+    margin: 47px 0 0 42px;
+}
+
+.header-link {
+    color: #17233D;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .88px;
+    margin-right: 32px;
+    cursor: pointer;
+}
+
+.header-link:hover {
+    opacity: .6;
+}
+
+.header-link:active {
+    opacity: .9;
+}
+
+button {
+    width: 124px;
+    height: 51px;
+    border-radius: 6px;
+    border: 1px solid #4CB538;
+    background: #6FBF44;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: .8;
+}
+
+button:active {
+    opacity: .5;
+}
+
+main {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 5%;
+    position: relative;
+}
+
+section {
+    display: block;
+    width: 50%;
+    margin-left: 57%;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    text-align: left;
+}
+
+.div-img {
+    position: absolute;
+    top: 100px;
+    left: 8%;
+    width: 45%;
+    max-width: 600px;
+    height: auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+h1 {
+    color: #161A49;
+    font-size: 63px;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: 0.6px;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #4B505A;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    margin-bottom: 40px;
+    max-width: 500px;
+}
+
+.learn-more {
+    color: #6FBF44;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    display: inline-block;
+}
+
+.learn-more:hover {
+    opacity: .6;
+}
+
+.learn-more:active {
+    opacity: .9;
+}
+
+@media screen and (max-width: 900px) {
+    nav {
+        padding: 20px 3%;
+        text-align: center;
+    }
+
+    .header-link {
+        display: none;
+    }
+
+    button {
+        width: auto;
+        padding: 10px 20px;
+        font-size: 14px;
+        position: relative;
+        left: 130px;
+        bottom: 50px;
+    }
+
+    main {
+        padding: 40px 3%;
+        min-height: auto;
+        position: static;
+        text-align: center;
+    }
+
+    section {
+        width: 100%;
+        margin-left: 0;
+        padding-top: 0;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 40px;
+        line-height: 1.2;
+        margin-bottom: 15px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 1.2;
+        margin-bottom: 25px;
+        padding: 0 10px;
+    }
+
+    .learn-more {
+        padding: 9px 15px;
+        font-size: 16px;
+    }
+
+    .div-img {
+        position: static;
+        width: 90%;
+        margin: 0 auto;
+        top: auto;
+        left: auto;
+        max-width: 400px;
+    }
+}
